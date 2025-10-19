@@ -9,7 +9,7 @@ from tkinter import scrolledtext, messagebox, ttk
 # 🔐 Gemini API Configuration
 # ========================================
 # Replace YOUR_API_KEY_HERE with your real key (keep private!)
-genai.configure(api_key="AIzaSyDdNsf_7D3dIQY_2BiBkxADPS9ynGO9R1U")
+genai.configure(api_key="")
 model = genai.GenerativeModel("models/gemini-flash-latest")
 
 # ========================================
